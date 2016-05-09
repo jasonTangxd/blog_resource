@@ -11,10 +11,12 @@
         <name>hadoop.tmp.dir</name>
         <value>/usr/local/hadoop_repo/tmp</value>    
 	</property>
-	<!--
+
+	<!-- 垃圾回收站 下面配置的24小时：单位分钟 -->
+    <!-- 删除文件到.Trash/Current/下 -->
     <property>
         <name>fs.trash.interval</name>
         <value>1440</value>
     </property>
-	-->
+
 </configuration>
