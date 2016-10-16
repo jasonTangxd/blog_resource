@@ -1,0 +1,20 @@
+# Set the java args to high
+
+-Xmx512M
+
+-XX:MaxPermSize=256m
+
+-XX:ReservedCodeCacheSize=128m
+
+# Set the extra SBT options
+-Dactivator.checkForUpdates=false
+-Dsbt.log.format=true
+-Dhttp.proxyHost=proxy.tencent.com
+-Dhttp.proxyPort=8080
+-Dhttps.proxyHost=proxy.tencent.com
+-Dhttps.proxyPort=8080
+
+# 设置boot目录以及ivy本地仓库地址
+-Dsbt.boot.directory=D:/dev/sbt/boot/
+-Dsbt.ivy.home=D:/dev/sbt/ivy2/
+-Dsbt.repository.config=D:/dev/sbt/conf/repo.properties  
