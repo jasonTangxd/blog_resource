@@ -1,4 +1,4 @@
-# Blog_Resources_20160508
+# blog_resource
 博客资源文件夹
 
 # 博客地址
